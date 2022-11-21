@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { MdLightMode, MdDarkMode } from "react-icons/md"
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { FiDownload } from "react-icons/fi";
 import Image from "next/image";
 import deved from "../public/devjeziel.png";
 import design from "../public/design.png";
@@ -29,8 +30,8 @@ export default function Home() {
 
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
-          <nav className="py-10 mb-4 flex justify-between dark:text-white">
-            <h1 className="text-xl font-burtons">Jeziel Almeida</h1>
+          <nav className="py-10 mb-4 flex justify-between items-center dark:text-white">
+            <h1 className="text-xl font-burtons">Jeziel</h1>
             <ul className="flex items-center">
               {!lightIcon 
                 ? 
@@ -49,7 +50,10 @@ export default function Home() {
                   </li>
               }
               <li>
-                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8" href="#">Currículo</a>
+                <div className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 flex items-center">
+			<FiDownload />
+			<a className="ml-2" href="../public/CurriculoJeziel.pdf" download>Currículo</a>
+		</div>
               </li>
             </ul>
           </nav>
