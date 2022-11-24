@@ -48,9 +48,9 @@ export default function NavBar({ darkMode, setDarkMode }) {
                 <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-200">Estudando programação e, atualmente, no 4º período de Análise e Desenvolvimento de Sistemas.</p>
             </div>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-                <a href="https://twitter.com/barrosjeziel"><AiFillTwitterCircle className="cursor-pointer hover:text-teal-600" /></a>
-                <a href="https://www.linkedin.com/in/jeziel-almeida-352252147"><AiFillLinkedin className="cursor-pointer hover:text-teal-600" /></a>
-                <a href="https://github.com/jeziel-almeida"><AiFillGithub className="cursor-pointer hover:text-teal-600" /></a>
+                <a href="https://twitter.com/barrosjeziel" target="_blank" rel="noreferrer"><AiFillTwitterCircle className="cursor-pointer hover:text-teal-600" /></a>
+                <a href="https://www.linkedin.com/in/jeziel-almeida-352252147" target="_blank" rel="noreferrer"><AiFillLinkedin className="cursor-pointer hover:text-teal-600" /></a>
+                <a href="https://github.com/jeziel-almeida" target="_blank" rel="noreferrer"><AiFillGithub className="cursor-pointer hover:text-teal-600" /></a>
             </div>
 
             <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mb-20 overflow-hidden md:h-96 md:w-96">

@@ -35,7 +35,7 @@ export default function Portfolio() {
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
 
                 {projetos.map((projeto) => (
-                    <a href={projeto.endereco} target="_blank" key={projeto.id} className="basis-1/3 flex-1">
+                    <a href={projeto.endereco} target="_blank" rel="noreferrer" key={projeto.id} className="basis-1/3 flex-1">
                         <div className="border-4 rounded-xl hover:border-teal-400">
                             <Image
                                 src={projeto.nome}
