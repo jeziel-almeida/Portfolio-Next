@@ -36,7 +36,7 @@ export default function Portfolio() {
 
                 {projetos.map((projeto) => (
                     <a href={projeto.endereco} target="_blank" rel="noreferrer" key={projeto.id} className="basis-1/3 flex-1">
-                        <div className="border-4 rounded-xl hover:border-teal-400">
+                        <div className="border-4 rounded-xl transition duration-300 ease-in-out hover:border-teal-400">
                             <Image
                                 src={projeto.nome}
                                 className="rounded-lg object-cover"
