@@ -15,7 +15,7 @@
 
 <p>&nbsp;</p>
 
-Projeto feito com [Next.js](https://nextjs.org/) que pode ser acessado em [`jeziel.codes`](https://jeziel.codes).
+Projeto feito com [Next.js](https://nextjs.org/) e [Tailwind CSS](https://tailwindcss.com/) que pode ser acessado em [`jeziel.codes`](https://jeziel.codes).
 
 ### Getting Started
 
